@@ -1,0 +1,215 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', 'monoespaciado', sans-serif;
+}
+
+body{
+    background-color: #f4f4fc;
+    height: auto;
+}
+
+
+header{
+    width: 90%;
+    height: 70px;
+    margin-left: 75px;
+    text-align: center;
+    margin: 40px;
+    font-size: 16px;
+    color: #343a40;;
+}
+
+.logo-alura{
+    width: 5%;
+    display: inline-block;
+    padding-top: 5px;
+    margin-right: 100%;    
+}
+
+.alerta {
+    margin-left: 105px;
+    margin-bottom: 5px;
+    position: absolute;
+    padding-top: 880px;
+}
+
+main{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedorcajatexto{
+    position: absolute;
+    left: 0 auto;
+    top: 20px;
+    padding-left: 90px;
+    width: 980px;
+    height: 820px;
+}
+
+.cajatexto{
+    width: 70%;
+    padding: 25px ;
+    top: 50%;
+    height: 50%;
+    border: 2px solid;
+    background-color: #f4f4fc;
+    cursor: pointer;
+    color: #0a3871;
+    font-size: 32px;
+    font-weight: 400px;
+    font-family: 'Roboto Mono', 'monoespaciado', sans-serif; 
+}
+
+.cajatexto::placeholder{
+    color: #0a3871;
+}
+
+.alerta{
+    position: absolute;
+    top: 480px;
+    height: 150px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.contenedor-botones{
+    position: absolute;
+    top: 460px;
+    height: 80px;
+    left: 95px;
+    padding-top: 65px;
+}
+
+.contenedor-parrafo{
+    position: absolute;
+    box-sizing: border-box;
+    padding: 20px;
+    top: 350px;
+    left: 40px;
+}
+
+.contenedor-parrafo h3{
+    font-size: 24px;
+    font-weight: 700px;
+    text-align: center;
+    color: #343a40;
+}
+
+.contenedor-parrafo p{
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: center;
+    color: #343a40;
+    padding-top: 20px;
+}
+
+.contenedor-resultado p{
+    padding: 30px;
+    color: #485057;
+    font-size: 25px;
+}
+
+.contenedor-copiar{
+    display: flex;
+    position: absolute;
+    bottom: 400px;
+    top: 325px;
+    background-color: aqua;
+    padding-left: 40px;
+}
+
+.btn-copiar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0a3871;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #0a3871;
+    cursor: pointer;
+    position: relative;
+    top: 160px;
+    right: 4px;
+}
+
+.btn-encriptar {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #0a3871;
+    color: white;
+    font-size: 20px;
+    font-weight: 400px;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.btn-desencriptar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #d8dfe8;
+    color: #0a3871;
+    font-size: 20px;
+    font-weight: 400px;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.btn-encriptar:hover {
+    background: white;
+    color: #0a3871;
+}
+
+.btn-desencriptar:hover{
+    background: white;
+    color: #0a3871;
+}
+
+.btn-copiar:hover{
+    background: #0a3871;
+    color: white;
+}
+
+.section2{
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 595px;
+    right: 80px;
+    padding-right: 20px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.5);
+}
+
+.munieco{
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+footer{
+    margin-top: 50%;
+    padding-top: 150px;
+    background: #0a3871;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+
+.ocultar{
+    display: none;
+}
